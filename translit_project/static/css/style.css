@@ -1,0 +1,77 @@
+/* Umumiy tanasi */
+
+body {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+}
+
+/* Navbar moslashuvchanligi */
+.navbar {
+    padding: 10px 15px;
+}
+.navbar-brand {
+    font-size: 1.4rem;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-nav {
+    text-align: center;
+}
+.navbar-nav .nav-item {
+    margin-bottom: 10px;
+}
+
+/* Form va tugmalar */
+.form-control, .form-select {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+.btn-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Kartalar (card) va textarea */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+textarea {
+    resize: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+textarea:focus {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+/* Mobil qurilmalar uchun o‘zgarishlar */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .col-md-6 {
+        width: 100%;
+    }
+    .btn {
+        margin-top: 5px;
+    }
+    .card {
+        padding: 15px;
+    }
+    textarea {
+        font-size: 14px;
+    }
+}
